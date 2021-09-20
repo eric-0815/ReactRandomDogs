@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import RandomDog from './components/RandomDog';
-
+import RandomDog from './components/RandomDog/RandomDog';
+import RandomRender from './components/RandomDog/RandomRender';
 class App extends Component {
   constructor(props){
     super(props);
@@ -9,14 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <RandomDog />
-        <RandomDog />
-        <RandomDog />
-        <RandomDog />
-        <RandomDog />
-        <RandomDog />
-        <RandomDog />
-        <RandomDog />
+        <RandomRender/>
       </div>
     );
   }

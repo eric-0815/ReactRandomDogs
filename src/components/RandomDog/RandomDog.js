@@ -51,8 +51,8 @@ class RandomDog extends React.Component {
       content = (
         <img
           src={"https://random.dog/bfb9e165-c643-4993-9b3a-7e73571672a6.jpg"}
-          width="190"
-          height="150"
+          width="250"
+          height="180"
         ></img>
       );
       surrfix = 'jpg';
