@@ -1,9 +1,14 @@
-import "bootstrap/dist/css/bootstrap.css";
-import { Card, ListGroup, ListGroupItem } from "react-bootstrap";
+import "./Header.css";
 function Header() {
   return (
-    <div></div>
+    <div className="header">
+      Puppies World  &nbsp;  
+      <img
+        src="https://images.pexels.com/photos/825949/pexels-photo-825949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        height="35"
+        width="45"
+      />
+    </div>
   );
 }
 export default Header;
-//https://images.pexels.com/photos/3198012/pexels-photo-3198012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260/100px270
