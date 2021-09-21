@@ -16,7 +16,7 @@
 
 # Summary:
 * All the tasks are completed.
-* The same Request cannot appear twice in a row for unsupported file formats, but it can appear once.
+* The request process can be further improved.
 
 # Assignment
 
