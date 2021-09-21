@@ -18,7 +18,6 @@
 * All the tasks are completed.
 * The same Request cannot appear twice in a row for unsupported file formats, but it can appear once.
 
-Tasks:
 # Assignment
 
 Create a React app to display random dogs from the following API:
