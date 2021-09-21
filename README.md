@@ -11,3 +11,4 @@ Include:
 3. npm install --save bootstrap
 4. npm install @testing-library/react react-test-render jest-dom --save-dev
 
+![image](https://github.com/erichong0815/assignment/blob/master/GitHub_Pic/assignment.png)
