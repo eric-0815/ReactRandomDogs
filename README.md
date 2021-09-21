@@ -14,6 +14,10 @@ Include:
 What does the web page look like?
 ![image](https://github.com/erichong0815/assignment/blob/master/GitHub_Pic/assignment.png)
 
+Summary:
+All the tasks are completed.
+The same Request cannot appear twice in a row for unsupported file formats, but it can appear once.
+
 Tasks:
 # Assignment
 
