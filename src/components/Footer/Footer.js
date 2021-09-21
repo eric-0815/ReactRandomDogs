@@ -3,8 +3,9 @@ function Footer() {
   return (
     <footer>
     <p>AquaTerra Assignment by <b> Ka Hou Hong </b></p>
-    <p>Sources from <a href="https://random.dog/woof.json">Random.Dog</a> 
-        <a href="https://www.pexels.com/"> and Pexels</a></p>
+    <p>Sources from <a href="https://random.dog/woof.json">Random.Dog</a>&nbsp;
+    and &nbsp;
+        <a href="https://www.pexels.com/">  Pexels</a></p>
 </footer>
   );
 }
