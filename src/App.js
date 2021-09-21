@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import RenderDog from "./components/RandomDog/RenderDog";
-import Button_Click from "./components/Button/Button";
+import ButtonClick from "./components/ButtonClick/ButtonClick";
 import Footer from "./components/Footer/Footer";
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
     >
       <RenderDog />
       <br />
-      <Button_Click />
+      <ButtonClick />
       <br />
       <Footer />
     </div>
