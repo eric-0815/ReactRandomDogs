@@ -5,6 +5,9 @@
 2. npm install
 3. npm start
 
+# How to test?
+1. npm test
+
 # Include:
 1. npm install axios
 2. npm install react-bootstrap@next bootstrap@5.1.0
