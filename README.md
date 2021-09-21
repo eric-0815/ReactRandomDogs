@@ -1,11 +1,11 @@
 # AquaTerra Assignment
 
-# How to run?
+# How to run:
 1. cd assignment
 2. npm install
 3. npm start
 
-# How to test?
+# How to test:
 1. npm test
 
 # Include:
