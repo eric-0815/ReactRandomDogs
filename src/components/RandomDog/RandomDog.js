@@ -46,13 +46,11 @@ class RandomDog extends React.Component {
     axios.get("https://random.dog/woof.json").then(function (response) {
       var isSupport = _this.verifyDogResource(response.data["url"]);
       if (!isSupport) {
-        axios
-          .get("https://random.dog/woof.json")
-          .then(function (response) {
-            _this.setState({
-              url: response.data["url"],
-            });
+        axios.get("https://random.dog/woof.json").then(function (response) {
+          _this.setState({
+            url: response.data["url"],
           });
+        });
       } else {
         _this.setState({
           url: response.data["url"],
@@ -80,7 +78,7 @@ class RandomDog extends React.Component {
           <source src={url} type="video/mp4" type="video/mp4"></source>
         </video>
       );
-    } 
+    }
     return <span>{content}</span>;
   }
 }

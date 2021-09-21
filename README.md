@@ -1,12 +1,13 @@
-npm install
-npx create-react-app my-app
-cd my-app
-npm start
+AquaTerra Assignment
 
+How to run?
+1. cd assignment
+2. npm install
+3. npm start
 
+Include:
+1. npm install axios
+2. npm install react-bootstrap@next bootstrap@5.1.0
+3. npm install --save bootstrap
+4. npm install @testing-library/react react-test-render jest-dom --save-dev
 
-npm install axios
-npm install react-bootstrap@next bootstrap@5.1.0
-npm install --save bootstrap
-
-npm install @testing-library/react react-test-render jest-dom --save-dev
