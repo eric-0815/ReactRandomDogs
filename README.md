@@ -1,21 +1,22 @@
-AquaTerra Assignment
+# AquaTerra Assignment
 
-How to run?
+# How to run?
 1. cd assignment
 2. npm install
 3. npm start
 
-Include:
+# Include:
 1. npm install axios
 2. npm install react-bootstrap@next bootstrap@5.1.0
 3. npm install --save bootstrap
 4. npm install @testing-library/react react-test-render jest-dom --save-dev
 
-What does the web page look like?
+# What does the web page look like?
 ![image](https://github.com/erichong0815/assignment/blob/master/GitHub_Pic/assignment.png)
 
-Summary:
+# Summary:
 All the tasks are completed.
+
 The same Request cannot appear twice in a row for unsupported file formats, but it can appear once.
 
 Tasks:
