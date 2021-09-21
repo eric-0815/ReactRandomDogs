@@ -32,13 +32,12 @@ class RandomDog extends React.Component {
     var url = this.state.url;
     var url_split = url.split(".");
     var surrfix = url_split[url_split.length - 1];
-    surrfix = surrfix.toLowerCase();
     // FORMATS
     if (
-      surrfix == "jpeg" ||
-      surrfix == "jpg" ||
-      surrfix == "png" ||
-      surrfix == "gif"
+      surrfix.toLowerCase() == "jpeg" ||
+      surrfix.toLowerCase() == "jpg" ||
+      surrfix.toLowerCase() == "png" ||
+      surrfix.toLowerCase() == "gif"
     ) {
       content = <img src={url} width="250" height="230"></img>;
     } else if (surrfix == "mp4") {
@@ -55,12 +54,10 @@ class RandomDog extends React.Component {
           height="230"
         ></img>
       );
-      surrfix = 'jpg';
+      surrfix = "jpg";
     }
 
-    return (
-        <span >{content}</span>
-    );
+    return <span>{content}</span>;
   }
 }
 
