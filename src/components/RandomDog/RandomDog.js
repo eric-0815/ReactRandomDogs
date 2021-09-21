@@ -43,7 +43,7 @@ class RandomDog extends React.Component {
       content = <img src={url} width="250" height="230"></img>;
     } else if (surrfix == "mp4") {
       content = (
-        <video width="250" height="180" controls>
+        <video width="250" height="230" controls>
           <source src={url} type="video/mp4" type="video/mp4"></source>
         </video>
       );
@@ -52,17 +52,16 @@ class RandomDog extends React.Component {
         <img
           src={"https://random.dog/bfb9e165-c643-4993-9b3a-7e73571672a6.jpg"}
           width="250"
-          height="180"
+          height="230"
         ></img>
       );
       surrfix = 'jpg';
     }
 
     return (
-        <span>{content}</span>
+        <span >{content}</span>
     );
   }
 }
-//<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
-//
+
 export default RandomDog;

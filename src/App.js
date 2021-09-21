@@ -1,18 +1,19 @@
-import React, { Component } from 'react';
-import './App.css';
-import RandomDog from './components/RandomDog/RandomDog';
-import RandomRender from './components/RandomDog/RandomRender';
-class App extends Component {
-  constructor(props){
-    super(props);
-  }
-  render() {
-    return (
-      <div className="container">
-        <RandomRender/>
-      </div>
-    );
-  }
+import React, { Component } from "react";
+import "./App.css";
+import RenderDog from "./components/RandomDog/RenderDog";
+import Button_Click from "./components/Button/Button";
+import { Col, Container, Row } from "react-bootstrap";
+function App() {
+  return (
+    <Container>
+      <Row>
+        <RenderDog />
+      </Row>
+      <Row>
+        <Button_Click />
+      </Row>
+    </Container>
+  );
 }
 
 export default App;
