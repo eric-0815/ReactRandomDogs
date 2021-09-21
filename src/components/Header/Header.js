@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import { Card, ListGroup, ListGroupItem } from "react-bootstrap";
-function Header(props) {
+function Header() {
   return (
     <div></div>
   );
