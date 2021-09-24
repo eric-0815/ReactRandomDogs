@@ -6,7 +6,7 @@ function Footer() {
         AquaTerra Assignment by <b> Ka Hou Hong </b>
       </p>
       <p>
-        Sources from <a href="https://random.dog/woof.json">Random.Dog</a>&nbsp;
+        Resources from <a href="https://random.dog/woof.json">Random.Dog</a>&nbsp;
         and &nbsp;
         <a href="https://www.pexels.com/"> Pexels</a>
       </p>
